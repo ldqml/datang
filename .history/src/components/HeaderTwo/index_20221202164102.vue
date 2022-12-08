@@ -1,0 +1,49 @@
+<template>
+    <div class="box2">
+        <span class="img1"><img src="./images/未标题-1.png" alt=""></span>
+        <div class="box3">
+            <a class="nav active" href="">{{msg1}}</a>
+            <a class="nav active" href="">{{msg2}}</a>
+            <a class="nav active" href="">{{msg3}}</a>
+            <a class="nav active" href="">{{msg4}}</a>
+            <a class="nav active" href="">{{msg5}}</a>
+            <a class="nav active" href="">{{msg6}}</a>
+            <a class="nav active" href="">{{msg7}}</a>
+            <a class="nav active" href="">首页</a>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    data(){
+        return{
+            msg1:"首页",
+            msg2:"关于宇辉",
+            msg3:"产业布局"
+        }
+    }
+}
+</script>
+
+<style scoped>
+.box2 {
+    width: 1920px;
+    height: 100px;
+    background-color: #f1f1f1;
+}
+.img1{
+    margin-left: 223px;
+    line-height: 100px;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 998px;
+    height: 80px;
+    background-color:yellow;
+    margin-left: 680px;
+    margin-top: -90px;
+}
+</style>

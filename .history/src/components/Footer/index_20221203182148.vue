@@ -1,0 +1,115 @@
+<template>
+<div class="box1">
+	<div class="top">
+		<span class="top-1"><img src="./images/未标题-3.png" alt=""></span>
+		<span class="top-2"><img src="./images/wx1.png" alt=""></span>
+	</div>
+	<div class="content">
+		<div class="content-1">
+			<p>服务赢得口碑，品质赢得品牌</p>
+			<span><img src="./images/wx2.png" alt=""></span>
+		</div>
+		<div class="content-6">
+			<a class="a1" href="">新闻资讯</a><br>
+			<a class="a2" href="">公司新闻</a><br>
+			<a class="a3" href="">行业新闻</a>
+		</div>
+		<span class="lianjie"><img src="./images/lianjie-1.png" alt=""></span>
+		<div class="wei"><img src="./images/erweima.png" alt=""></div>
+	</div>
+	<div class="footer">
+		<p>Copyright © 浙江宇辉电子有限公司     技术支持：盛世传媒</p>
+	</div>
+</div>
+</template>
+
+<script>
+export default {
+  name: "",
+};
+</script>
+
+<style scoped>
+.box1{
+	width: 1920px;
+	height: 765px;
+}
+.top{
+	position: relative;
+	width: 1920px;
+	height: 100px;
+	background-color: #b86820;
+	background-image: url("./images/未标题-1.png");
+}
+.top-1{
+	position: absolute;
+	margin-top: 10px;
+	left: 50%;
+	margin-left: -68px;
+}
+.top-2{
+	position: absolute;
+	margin-top: 25px;
+	left: 70%;
+}
+.content{
+	position: relative;
+	height: 640px;
+	width: 1920px;
+	background-color: #2f2f2f;
+}
+.footer{
+	width: 1920px;
+	height: 40px;
+	background-color: #2a2a2a;
+}
+.content-1{
+	position: absolute;
+	width: 1920px;
+	height: 170px;
+	background-image: url("./images/未标题-2.png");
+	margin-top: 40px;
+}
+.content-1>p{
+	font-size: 40px;
+	color: #ffffff;
+	line-height: 179px;
+	margin-left: 400px;
+}
+.content-1>span{
+	position: absolute;
+	margin-top: -130px;
+	margin-left: 1200px;
+}
+.content-6{
+	position: absolute;
+}
+.content-6>.a1{
+	position: absolute;
+	font-size: 20px;
+	color: #ffffff;
+}
+.content-6>.a2,.a3{
+	position: absolute;
+	font-size: 14px;
+	color: #888888;
+	line-height: 32px;
+}
+.footer>p{
+	float:right;
+	font-size: 14px;
+	color: #888888;
+	line-height: 40px;
+	margin-right: 250px;
+}
+.lianjie{
+	position: absolute;
+	margin-top: 550px;
+	right: 345px;
+}
+.wei{
+	position: absolute;
+	margin-top: -20px;
+	left: 520px;
+}
+</style>
