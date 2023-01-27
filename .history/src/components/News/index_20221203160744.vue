@@ -1,0 +1,88 @@
+<template>
+  <div class="box1">
+    <div class="top">
+      <div class="img">
+        <img class="top-img" src="../../assets/images/未标题-1.png" alt="" />
+      </div>
+      <div class="msg1">
+        <p class="text1">新闻资讯</p>
+        <p class="text2">INDUSTRY SERVICE</p>
+      </div>
+    </div>
+    <div class="left"></div>
+    <div class="right">
+      <div class="right-1">
+        <img src="./images/未标题-2.png" alt="" />
+        <p>超精密数控加工机床：技术领先化 发展多元化</p>
+        <p>
+          高精度是数控机床的主流趋势“在过去的30年里,世界范围的机床技术得到了
+          很大程度的发展,机床技术的发展趋势也呈现出多元化的特点，比如高精度...
+        </p>
+        <p>2019/04/19</p>
+        <span><img src="./images/未标题-6.png" alt=""></span>
+      </div>
+      <div class="right-2"></div>
+      <div class="right-3"></div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+.box1 {
+  position: relative;
+  width: 1920px;
+  height: 900px;
+  background-color: #ffffff;
+}
+.top-img {
+  margin-top: 210px;
+}
+.top {
+  position: relative;
+  height: 225px;
+  width: 1920px;
+}
+.msg1 {
+  position: absolute;
+  left: 50%;
+  margin-left: -52px;
+  margin-top: 58px;
+}
+.text1 {
+  font-size: 26px;
+  color: #353535;
+}
+.text2 {
+  font-size: 12px;
+  color: #c7c7c7;
+  margin-top: -18px;
+  margin-left: -9px;
+}
+.img {
+  position: absolute;
+  margin-top: -210px;
+  left: 50%;
+  margin-left: -246px;
+}
+.left {
+  width: 440px;
+  height: 590px;
+  background-color: #eeeeee;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+.right {
+  width: 730px;
+  height: 590px;
+  margin-top: 10px;
+  margin-left: 830px;
+  margin-top: -590px;
+}
+.right-1>p,span{
+    position: absolute;
+}
+</style>
